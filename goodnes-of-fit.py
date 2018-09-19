@@ -45,7 +45,7 @@ def nCr(n,r):
 def gamma(integer):
 	#integer must be greater than 1
 	from math import factorial
-	return factorial(integer-1)
+	return factorial(int(integer)-1)
 #######################################################################################
 ### List of Probabilities
 def poisson(x,O):
