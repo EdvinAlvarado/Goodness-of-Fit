@@ -84,11 +84,11 @@ if switch == 'poisson':
 elif switch == 'binomial':
 	P = binomial(x,N,0.5)
 	p = 2
-print('P %s' %P)
+print('Probabilities %s' %P)
 E = []
 for i in range(N):
 	E.append(P[i] *sO)
-print('E %s' %E)
+print('Expected Frequency %s' %E)
 
 
 Efix = addtill5(E)
@@ -103,7 +103,7 @@ if v < 1:
 X2 = 0
 for i in range(k):
 	X2 += (O[i] - Efix[i])**2 /Efix[i]
-print(X2) 
+print('X^2_0 = %.3f' %X2) 
 
 
 #TODO - dont know what x is or if this distribution is the correct one
@@ -113,4 +113,4 @@ def chisqrd(x,v):
 		return (x**(v/2 - 1) * exp(-x/2)) / (2**(v/2) * gamma(v/2))
 	else:
 		return 0
-print(chisqrd(0.05,8))
+print('X^2_alpha = %.3f' %chisqrd(0.05,8))

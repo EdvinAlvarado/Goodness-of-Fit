@@ -47,8 +47,8 @@ By breaking the loop after items are joined, it goes to the master loop effectiv
 
 ## Probability Distributions
 
-With the use of functions and some switches the interchanging of probability distributions and their corresponding degrees of freedom.
+With the use of functions and some switches the interchanging of probability distributions and their corresponding degrees of freedom is very easy to do.
 
 ## Miscellaneous
 
-There's also combination function, gamma function, and chi-squared function for anyone interested. There's also an unrelated python file called *test-list.py* which purpose was to take excel multi-variable data and create a 3d graphic. Right now it can take a string of numbers and build the list. However, I want to simply give it a plain text file without needing to transpose it and adding each variable one by one. I did do ~[another one](upload this one later) for one with three variables but the amount of variables it can manage are static. I want to get around and see if it is possible to fix that. Maybe with a lists inside a master list.
+There's also combination function, gamma function, and chi-squared function for anyone interested. There's also an unrelated python file called *test-list.py* which purpose was to take excel multi-variable data and create a 3d graphic. Right now it can take a string of numbers and build the list. However, I want to simply give it a plain text file without needing to transpose it and adding each variable one by one. I did do another one (upload this one later) for one with three variables but the amount of variables it can manage are static. I want to get around and see if it is possible to fix that. Maybe with a lists inside a master list.
